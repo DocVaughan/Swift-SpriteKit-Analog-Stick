@@ -50,7 +50,7 @@
 		8C073A9C1B70FC5A005CE3AD /* minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x.png"; sourceTree = "<group>"; };
 		8C073A9D1B70FC5A005CE3AD /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		8C073A9E1B70FC5A005CE3AD /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
-		8C2C1F6219DD762300510F35 /* AnalogStick Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnalogStick Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2C1F6219DD762300510F35 /* AnalogStick Empty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnalogStick Empty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2C1F6619DD762300510F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2C1F6719DD762300510F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C2C1F6B19DD762300510F35 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		8C2C1F7019DD762300510F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C2C1F7219DD762300510F35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8C2C1F7519DD762300510F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		8C2C1F7B19DD762300510F35 /* AnalogStick DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnalogStick DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2C1F7B19DD762300510F35 /* AnalogStick Empty.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AnalogStick Empty.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2C1F8019DD762300510F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2C1F8119DD762300510F35 /* AnalogStick_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogStick_DemoTests.swift; sourceTree = "<group>"; };
 		8C2C1F8C19DD76AA00510F35 /* AnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogJoystick.swift; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		8C2C1F5919DD762300510F35 = {
 			isa = PBXGroup;
 			children = (
-				8C2C1F6419DD762300510F35 /* AnalogStick Demo */,
-				8C2C1F7E19DD762300510F35 /* AnalogStick DemoTests */,
+				8C2C1F6419DD762300510F35 /* AnalogStick Empty */,
+				8C2C1F7E19DD762300510F35 /* AnalogStick EmptyTests */,
 				8C2C1F6319DD762300510F35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,13 +115,13 @@
 		8C2C1F6319DD762300510F35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C2C1F6219DD762300510F35 /* AnalogStick Demo.app */,
-				8C2C1F7B19DD762300510F35 /* AnalogStick DemoTests.xctest */,
+				8C2C1F6219DD762300510F35 /* AnalogStick Empty.app */,
+				8C2C1F7B19DD762300510F35 /* AnalogStick Empty.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C2C1F6419DD762300510F35 /* AnalogStick Demo */ = {
+		8C2C1F6419DD762300510F35 /* AnalogStick Empty */ = {
 			isa = PBXGroup;
 			children = (
 				8C2C1F8B19DD76AA00510F35 /* AnalogJoystick */,
@@ -133,7 +133,7 @@
 				8C2C1F7419DD762300510F35 /* LaunchScreen.xib */,
 				8C2C1F6519DD762300510F35 /* Supporting Files */,
 			);
-			path = "AnalogStick Demo";
+			path = "AnalogStick Empty";
 			sourceTree = "<group>";
 		};
 		8C2C1F6519DD762300510F35 /* Supporting Files */ = {
@@ -145,12 +145,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8C2C1F7E19DD762300510F35 /* AnalogStick DemoTests */ = {
+		8C2C1F7E19DD762300510F35 /* AnalogStick EmptyTests */ = {
 			isa = PBXGroup;
 			children = (
 				8C2C1F8119DD762300510F35 /* AnalogStick_DemoTests.swift */,
 				8C2C1F7F19DD762300510F35 /* Supporting Files */,
 			);
+			name = "AnalogStick EmptyTests";
 			path = "AnalogStick DemoTests";
 			sourceTree = "<group>";
 		};
@@ -174,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C2C1F6119DD762300510F35 /* AnalogStick Demo */ = {
+		8C2C1F6119DD762300510F35 /* AnalogStick Empty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C2C1F8519DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick Demo" */;
+			buildConfigurationList = 8C2C1F8519DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick Empty" */;
 			buildPhases = (
 				8C2C1F5E19DD762300510F35 /* Sources */,
 				8C2C1F5F19DD762300510F35 /* Frameworks */,
@@ -186,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = "AnalogStick Demo";
+			name = "AnalogStick Empty";
 			productName = "AnalogStick Demo";
-			productReference = 8C2C1F6219DD762300510F35 /* AnalogStick Demo.app */;
+			productReference = 8C2C1F6219DD762300510F35 /* AnalogStick Empty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8C2C1F7A19DD762300510F35 /* AnalogStick DemoTests */ = {
+		8C2C1F7A19DD762300510F35 /* AnalogStick EmptyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C2C1F8819DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick DemoTests" */;
+			buildConfigurationList = 8C2C1F8819DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick EmptyTests" */;
 			buildPhases = (
 				8C2C1F7719DD762300510F35 /* Sources */,
 				8C2C1F7819DD762300510F35 /* Frameworks */,
@@ -204,9 +205,9 @@
 			dependencies = (
 				8C2C1F7D19DD762300510F35 /* PBXTargetDependency */,
 			);
-			name = "AnalogStick DemoTests";
+			name = "AnalogStick EmptyTests";
 			productName = "AnalogStick DemoTests";
-			productReference = 8C2C1F7B19DD762300510F35 /* AnalogStick DemoTests.xctest */;
+			productReference = 8C2C1F7B19DD762300510F35 /* AnalogStick Empty.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C2C1F5D19DD762300510F35 /* Build configuration list for PBXProject "AnalogStick Demo" */;
+			buildConfigurationList = 8C2C1F5D19DD762300510F35 /* Build configuration list for PBXProject "AnalogStick Empty" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,8 +243,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C2C1F6119DD762300510F35 /* AnalogStick Demo */,
-				8C2C1F7A19DD762300510F35 /* AnalogStick DemoTests */,
+				8C2C1F6119DD762300510F35 /* AnalogStick Empty */,
+				8C2C1F7A19DD762300510F35 /* AnalogStick EmptyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +306,7 @@
 /* Begin PBXTargetDependency section */
 		8C2C1F7D19DD762300510F35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C2C1F6119DD762300510F35 /* AnalogStick Demo */;
+			target = 8C2C1F6119DD762300510F35 /* AnalogStick Empty */;
 			targetProxy = 8C2C1F7C19DD762300510F35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,11 +415,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "AnalogStick Demo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AnalogStick Empty/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CRAWLAB.AnalogStick-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "CRAWLAB.AnalogStick-Empty";
+				PRODUCT_NAME = "AnalogStick Empty";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -429,11 +430,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "AnalogStick Demo/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AnalogStick Empty/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CRAWLAB.AnalogStick-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "CRAWLAB.AnalogStick-Empty";
+				PRODUCT_NAME = "AnalogStick Empty";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -453,8 +454,8 @@
 				INFOPLIST_FILE = "AnalogStick DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy-Mitrophanskiy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogStick Demo.app/AnalogStick Demo";
+				PRODUCT_NAME = "AnalogStick Empty";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogStick Empty.app/AnalogStick Empty";
 			};
 			name = Debug;
 		};
@@ -469,15 +470,15 @@
 				INFOPLIST_FILE = "AnalogStick DemoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dmitriy-Mitrophanskiy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogStick Demo.app/AnalogStick Demo";
+				PRODUCT_NAME = "AnalogStick Empty";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogStick Empty.app/AnalogStick Empty";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C2C1F5D19DD762300510F35 /* Build configuration list for PBXProject "AnalogStick Demo" */ = {
+		8C2C1F5D19DD762300510F35 /* Build configuration list for PBXProject "AnalogStick Empty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C2C1F8319DD762300510F35 /* Debug */,
@@ -486,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C2C1F8519DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick Demo" */ = {
+		8C2C1F8519DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick Empty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C2C1F8619DD762300510F35 /* Debug */,
@@ -495,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C2C1F8819DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick DemoTests" */ = {
+		8C2C1F8819DD762300510F35 /* Build configuration list for PBXNativeTarget "AnalogStick EmptyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C2C1F8919DD762300510F35 /* Debug */,
